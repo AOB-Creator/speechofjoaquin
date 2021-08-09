@@ -92,7 +92,7 @@ html::-webkit-scrollbar-thumb{
 @media(max-width: 961px){
     .sect1{
         height: 100vh;
-        background: linear-gradient(90deg, rgba(240, 237, 237, 0.842), rgba(255, 255, 255, 0.829)), url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80) !important;
+        background: linear-gradient(90deg, rgba(24, 24, 24, 0.842), rgba(15, 15, 15, 0.829)), url(https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80) !important;
         background-position: center;
         background-size: cover !important;
     }
@@ -744,6 +744,7 @@ section.sect5{
     
 }
 
+
 .asd{
     font-size: 14px !important;
  
@@ -791,7 +792,7 @@ section.sect5{
 
 section.sect5{
     padding: 30px 0px !important;
-    height: 150vh !important;
+    height: 150vh ;
 }
 .resumes{
     display: flex;
@@ -910,9 +911,9 @@ section.sect5{
 @media(max-width: 500px){
     .cards7{
         display: flex;
-        justify-content: center !important;
         align-items: center !important;
         justify-content: space-between !important;
+        flex-direction: column;
     }
     .cards7 .divsd{
         width: 100% !important;   
@@ -1127,7 +1128,10 @@ section.sect7{
 /* section 10 *//* section 10 *//* section 10 *//* section 10 *//* section 10 */
 /* section 10 *//* section 10 *//* section 10 *//* section 10 *//* section 10 */
 @media(max-width:961px){
-
+    .text10 *{
+        flex: 4;
+        padding: 5px 10px !important;
+    }
     .sect10{
         padding: 30px 5%;
         height: auto;
@@ -1389,7 +1393,8 @@ section.sect7{
 
 
 .sections-1{
-    min-height: 100vh;
+    padding: 20px 0;
+    min-height: auto;
     background-color: rgba(255, 255, 255, 0.418);
     display: flex;
     align-items: center;
@@ -1409,7 +1414,22 @@ section.sect7{
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
-    
+}
+@media(max-width: 500px){
+
+    .cards{
+        height: auto !important;
+        width: 100%;
+        padding: 20px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr !important;
+        column-gap: 0px !important;
+        row-gap: 40px;
+    }
+    .card{
+        height: 450px;
+    }
 }
 .card{
     color: rgb(175, 175, 175);
