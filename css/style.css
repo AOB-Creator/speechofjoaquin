@@ -90,6 +90,10 @@ html::-webkit-scrollbar-thumb{
 /* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi */
 /* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi *//* section 1 baslandi */
 @media(max-width: 961px){
+    .element{
+        font-family: var(--fnt);
+        font-weight: 700;
+    }
     .sect1{
         height: 100vh;
         background: linear-gradient(90deg, rgba(24, 24, 24, 0.842), rgba(15, 15, 15, 0.829)), url(https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80) !important;
@@ -1367,7 +1371,7 @@ section.sect7{
     height: 80vh;
 }
 
-@media(max-width: 379px){
+@media(max-width: 479px){
     
 .sect13 iframe{
     padding: 20px 0px;
