@@ -1,6 +1,6 @@
 const colors = document.querySelectorAll(" .first .color-picker li")
 const topcolor = document.querySelector(" .cards .first .top-side")
-console.log(colors, topcolor);
+
 function removeractive(){
     colors.forEach(elements =>{
         elements.classList.remove("active")
@@ -74,7 +74,7 @@ sizers.forEach(function(item, index){
 
 const color2 = document.querySelectorAll(".second .color-picker li")
 const topcolor2 = document.querySelector(" .cards .second .top-side")
-console.log(color2, topcolor2);
+
 function removeractive2(){
     color2.forEach(elements =>{
         elements.classList.remove("active")
@@ -149,7 +149,7 @@ sizer2.forEach(function(item, index){
 
 const color3 = document.querySelectorAll(".third .color-picker li")
 const topcolor3 = document.querySelector(" .cards .third .top-side")
-console.log(color3, topcolor3);
+
 function removeractive3(){
     color3.forEach(elements =>{
         elements.classList.remove("active")
@@ -222,7 +222,7 @@ sizer3.forEach(function(item, index){
 
 const color4 = document.querySelectorAll(".fourth .color-picker li")
 const topcolor4 = document.querySelector(" .cards .fourth .top-side")
-console.log(color4, topcolor4);
+
 function removeractive4(){
     color4.forEach(elements =>{
         elements.classList.remove("active")

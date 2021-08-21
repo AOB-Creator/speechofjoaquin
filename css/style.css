@@ -1700,3 +1700,68 @@ section.sect7{
 }
 .btn3{}
 .btn4{}
+
+
+/* authentification *//* authentification *//* authentification *//* authentification */
+/* authentification *//* authentification *//* authentification *//* authentification */
+/* authentification *//* authentification *//* authentification *//* authentification */
+/* authentification *//* authentification *//* authentification *//* authentification */
+/* authentification *//* authentification *//* authentification *//* authentification */
+/* authentification *//* authentification *//* authentification *//* authentification */
+
+.rmv{
+    display:none !important; 
+}
+
+
+.sign-up{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, white, #e1f4ec);
+}
+.center-sign-up{
+    width: 30%;
+    height: 70%;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(109, 109, 109, 0.425);
+}
+.center-sign-up h1{
+    
+    text-align: start;
+    padding: 20px 0px;
+}
+.center-sign-up input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+}
+.center-sign-up button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0px;
+    background-color: #2983dd;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.center-sign-up *{
+    display: block;
+}
+
+.login{
+    background-color: violet;
+    height: 100vh;
+}
+
+.membership{
+    display: none;
+}
+
+
