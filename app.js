@@ -303,3 +303,13 @@ starbucks.forEach(item=>{
     })
     
 })
+
+
+
+setTimeout(() => {
+    document.querySelector(".full-part").classList.add("none")    
+}, 3000);
+
+
+
+
